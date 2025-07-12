@@ -248,7 +248,7 @@ https://templatemo.com/tm-586-scholar
     <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
         <div class="events_item">
             <div class="thumb">
-                <a href="#"><img src="{{ asset('frontend/assets/images/course-01.jpg')}}" alt=""></a>
+                <a href="{{ route('isi', $data->id) }}"><img src="{{ asset('frontend/assets/images/course-01.jpg')}}" alt=""></a>
                 <span class="category">
                     {{ $data->mapel->nama_mapel }}
                 </span>

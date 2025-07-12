@@ -23,9 +23,10 @@ use App\Http\Middleware\RoleMiddleware;
 |
 */
 
-Route::get('/', [FrontController::class, 'index'])->name('welcome');
 
+Route::get('/', [HomeController::class, 'index'])->name('welcome');
 
+Route::get('materi{id}', [App\Http\Controllers\FrontController::class, 'isi'])->name('isi');
 Route::resource('siswa', SiswaController::class);
 Route::resource('mapel', MapelController::class);
 Route::resource('quiz', QuizController::class);
