@@ -311,8 +311,8 @@ https://templatemo.com/tm-586-scholar
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="{{ asset('frontend/assets/images/member-01.jpg')}}" alt="">
-              <span class="category">ggs</span>
+              <img src="{{ asset('storage/guru/' . $data->foto) }}" alt="">
+              <span class="category">Guru</span>
               <h4>{{ $data->name }}</h4>
               <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
