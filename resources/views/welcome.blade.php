@@ -248,7 +248,7 @@ https://templatemo.com/tm-586-scholar
     <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
         <div class="events_item">
             <div class="thumb">
-                <a href="{{ route('isi', $data->id) }}"><img src="{{ asset('storage/materi/' . $data->foto ) }}" alt="Eclipse Saga" class="main-image" style="widht:30" /></a>
+                <a href="#"><img src="{{ asset('frontend/assets/images/course-01.jpg')}}" alt=""></a>
                 <span class="category">
                     {{ $data->mapel->nama_mapel }}
                 </span>
@@ -311,8 +311,8 @@ https://templatemo.com/tm-586-scholar
         <div class="col-lg-3 col-md-6">
           <div class="team-member">
             <div class="main-content">
-              <img src="{{ asset('storage/guru/' . $data->foto) }}" alt="">
-              <span class="category">Guru</span>
+              <img src="{{ asset('frontend/assets/images/member-01.jpg')}}" alt="">
+              <span class="category">ggs</span>
               <h4>{{ $data->name }}</h4>
               <ul class="social-icons">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>
